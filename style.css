@@ -6,7 +6,7 @@
 }
 
 body {
-    height: 700px;
+    height: 100%;
     
 }
 
@@ -15,7 +15,7 @@ header {
     margin-top: 20px;
 }
 
-div.header a {
+.link-header {
     margin: 40px 0 40px;
     font-family: Poppins;
     font-size: 14px;
@@ -44,41 +44,36 @@ button:hover{
 button:active{
     opacity: .5;
 }
-div.container-left img {
-    display: flex;
-    width: 595.18px;
-    height: 500px;
-    margin: 90px;
-    left: 50px;
-
-}
-div.container-rigth {
-   display: flex;
-   align-items: center;
-   justify-content: flex-start;
-   flex-direction: column;
-   text-align: inherit;
-   
-   margin: -450px 50px 0px 900px;
- 
+img {
+    margin-right: 90px;
 }
 h1{
     width: 582px;
     height: 164px;
-    top: 342px;
-    left: 801px;
+    top: 553px;
     color: #161A49;
     font-family: Poppins;
     font-size: 62px;
     font-weight: 700;
     line-height: 82px;
     letter-spacing: 0.5961538553237915px;
-    text-align: justify;  
-    margin-top: -30px; 
-    
+      
 
 }
-.container-rigth p{
+.container-right {
+    display: inline-block;
+    align-items: center;
+    flex-direction: column;
+       
+  
+ }
+.container-left  {
+    display: inline-block;
+    align-items: center;
+
+}
+
+p{
     width: 493px;
     height: 99px;
     top: 553px;
@@ -89,8 +84,8 @@ h1{
     letter-spacing: 0.5px;
     text-align: inherit;
     color: #4B505A;
-    margin-left: -94px;
-    margin-top: 25px;
+    text-align: inherit;
+    
 }
 .learn-more  {
     text-decoration: none;
@@ -105,8 +100,8 @@ h1{
     letter-spacing: 1px;
     text-align: left;
     color: #6FBF44;
-    margin-left: -475px;
-    margin-top: 50px;
+    
+    
     
 
 
