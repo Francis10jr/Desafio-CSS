@@ -45,7 +45,7 @@ button:active{
     opacity: .5;
 }
 img {
-    margin-right: 90px;
+    margin: 120px 0 0 150px;
 }
 h1{
     width: 582px;
@@ -54,8 +54,8 @@ h1{
     color: #161A49;
     font-family: Poppins;
     font-size: 62px;
-    font-weight: 700;
-    line-height: 82px;
+    font-weight: 700px;
+    line-height: 100px;
     letter-spacing: 0.5961538553237915px;
       
 
@@ -64,7 +64,10 @@ h1{
     display: inline-block;
     align-items: center;
     flex-direction: column;
-       
+    margin-left: 37px;
+    width: 493px;
+    
+        
   
  }
 .container-left  {
@@ -85,6 +88,9 @@ p{
     text-align: inherit;
     color: #4B505A;
     text-align: inherit;
+    margin-top: 47px;
+    margin-bottom: 55px;
+    
     
 }
 .learn-more  {
@@ -100,9 +106,87 @@ p{
     letter-spacing: 1px;
     text-align: left;
     color: #6FBF44;
-    
-    
-    
+        
+    }
 
+    @media screen and (max-width: 1280px) {
+        
+        body{
+            width: 100%;
+            height: 50%;
+            padding: 0px;
+            margin: 0px;
+            position: static;
+            display: flex;
+            flex-direction: column-reverse;
+                   
+          
 
-}
+        }
+        .link-header{
+            display: none;
+        }
+
+        button{
+            
+            width: 91px;
+            height: 31px;
+            font-size: 12px;
+            font-weight: 400px;          
+            margin-left: 17px;
+            position: absolute; 
+
+        }
+        h1{
+            margin: 60px 10px 0 50px;
+            width: 300px;
+            line-height: 44px;
+            font-size: 33px;
+            text-align: center;
+            
+                    
+           
+        }
+        p{
+            width: 350px;
+            height: 180px;
+            text-align: justify;
+            font-family: Poppins;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 33px;
+            letter-spacing: 0.5px;
+            text-align: center;
+
+        }
+        img{
+            position: relative;
+            width: 350px;
+            margin: 75px 0px 0px 20px;
+           
+
+        }
+           
+        .container-left{
+           margin: auto;
+           text-align: center;
+            /*display: block;
+            text-align: center;
+            width: 100%;
+            height: 50%;
+            padding: 0;
+            margin-bottom: 5px;
+            */
+        }
+        .container-right{
+            display: flex;
+            flex-direction: column;
+            height: auto;
+            width: 100%;
+            margin: 2px
+            
+        }
+       
+
+              
+    }
